@@ -1,7 +1,15 @@
+@media screen and (min-width: 300px) and (max-width: 480px) {
 .animal-container {
     column-count: 3;
     column-gap: 10%;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 700px){
+    body { background-color:black;
+        color:white;
+    }
+}
+
 
 .animal.profile {
     break-inside: avoid;
@@ -14,5 +22,6 @@ img {
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
+}
 }

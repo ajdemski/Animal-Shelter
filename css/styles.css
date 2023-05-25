@@ -1,0 +1,18 @@
+.animal-container {
+    column-count: 3;
+    column-gap: 10%;
+}
+
+.animal.profile {
+    break-inside: avoid;
+}
+
+img {
+    width: 450px;
+    height: 350px;
+    vertical-align: center;
+}
+
+h1 {
+  text-align: center;
+}
